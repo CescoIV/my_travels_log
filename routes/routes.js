@@ -89,6 +89,7 @@ function createNewLocation (req, res) {
         visitDate: req.body.visitDate
       });
 
+
       //establishing reference for user having a new location
       //this User has this location
       userrecord.locations.push(newLocation);
